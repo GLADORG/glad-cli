@@ -1,0 +1,20 @@
+name = "gladcli"
+description = "The commandline tooling  for GlAd"
+version = "0.0.0"
+
+authors = ["Bent Bracke"]
+maintainers = ["Bent Bracke <bent@bracke.dk>"]
+maintainers-logins = ["bracke"]
+
+executables = ["gladcli"]
+[[depends-on]]  # Added by alr
+clic = "~0.1.0"  # Added by alr
+[[depends-on]]  # Added by alr
+aaa = "~0.2.3"  # Added by alr
+
+[[depends-on]]  # Added by alr
+gnat = "^11.2.0-1"  # Added by alr
+[[depends-on]]  # Added by alr
+gprbuild = "~20.0.0"  # Added by alr
+[[depends-on]]  # Added by alr
+aws = "^21.0.0"  # Added by alr
